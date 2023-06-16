@@ -18,8 +18,6 @@ const CustomerRow = ({ customerName, orderNumber, transactions }) => {
     )
   }, [transactions])
 
-  console.log('points total', pointsTotal)
-
   return (
     <tr>
       <td>{orderNumber}</td>
